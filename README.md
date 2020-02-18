@@ -10,7 +10,7 @@ Even if there is no network, the app will display data saved in DB.
 It is divised into 4 main packages :
 - common : containing BaseActivity, BaseViewModel and some other common files.
 - data : containing a local package (having the different Dao), a model package, a remote package (where all the network requests are) and a repository package.
--di : for the DI
+- di : for the DI
 - features : containing the different features, i.e. home (HomeActivity, HomeViewModel, etc), detail, settings.
 
 **In order to make the app working, you must put your API key in the MovieDatasource file present in data/remote/ package.**
