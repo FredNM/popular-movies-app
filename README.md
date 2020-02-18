@@ -9,7 +9,7 @@ Even if there is no network, the app will display data saved in DB.
 
 It is divised into 4 main packages :
 - common : containing BaseActivity, BaseViewModel and some other common files.
-- data : containing a local package (having the different Dao), a model package, a remote package (where all the network requests are) and a repository package.
+- data : containing a local package, a model package, a remote package and a repository package.
 - di : for the DI
 - features : containing the different features, i.e. home (HomeActivity, HomeViewModel, etc), detail, settings.
 
