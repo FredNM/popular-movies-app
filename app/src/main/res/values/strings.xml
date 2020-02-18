@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">popular-movies-app-I</string>
+    <string name="an_error_happened">An error happened, please retry!</string>
+    <string name="no_network">Please turn on your network connexion!</string>
+    <string name="default_value_movie_order_parameter">Popular</string>
+    <string name="mark_favorite">Mark as favorite</string>
+    <string name="trailers">Trailers: </string>
+    <string name="action_settings">Settings</string>
+
+    <!-- For Preferences -->
+    <string name="pref_sort_key" translatable="false">sort</string>
+    <string name="pref_sort_label">Sorting Criteria</string>
+
+    <string name="pref_sort_label_popular">Popular</string>
+    <string name="pref_sort_label_top_rated">Top Rated</string>
+    <string name="pref_sort_popular_value" translatable="false">popular</string>
+    <string name="pref_sort_top_rated_value" translatable="false">topRated</string>
+
+
+</resources>

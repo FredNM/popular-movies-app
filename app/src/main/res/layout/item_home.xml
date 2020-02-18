@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="movie"
+            type="com.frednm.popular_movies_app_i.data.model.Movie" />
+        <variable
+            name="viewmodel"
+            type="com.frednm.popular_movies_app_i.features.home.HomeViewModel" />
+    </data>
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_small"
+        android:layout_marginTop="@dimen/margin_small"
+        android:layout_marginRight="@dimen/margin_small"
+        app:cardUseCompatPadding="true"
+        app:cardElevation="@dimen/cardElevation"
+        android:onClick="@{() -> viewmodel.userClicksOnItem(movie)}">
+        <ImageView
+            android:id="@+id/movie_image"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/movie_height_home_activity"
+            android:scaleType="centerCrop"
+            app:imageUrl="@{movie.getPosterPath()}"/>
+    </com.google.android.material.card.MaterialCardView>
+
+</layout>

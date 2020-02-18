@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="cornerSize">8dp</dimen>
+    <dimen name="cardElevation">12dp</dimen>
+    <dimen name="margin_small">2dp</dimen>
+
+    <dimen name="margin_medium">20dp</dimen>
+
+    <dimen name="movie_height_home_activity">300dp</dimen>
+
+    <dimen name="title_card_view_height_detail_activity">120dp</dimen>
+    <dimen name="movie_height_detail_activity">210dp</dimen>
+    <dimen name="movie_width_detail_activity">140dp</dimen>
+
+</resources>
